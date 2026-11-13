@@ -1,0 +1,23 @@
+{
+  "name": "bot-whatsapp-avis",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bot WhatsApp pour faire répondre un restaurateur à ses avis Google",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "onboard": "node scripts/onboard.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.9"
+  }
+}
